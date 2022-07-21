@@ -16,5 +16,4 @@ export class SidenavFixedExample {
 
   constructor(private _formBuilder: FormBuilder) {}
 
-  shouldRun = /(^|.)(stackblitz|webcontainer).(io|com)$/.test(window.location.host);
 }

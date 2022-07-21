@@ -16,6 +16,4 @@ export class SidenavDisableCloseExample {
     this.reason = reason;
     this.sidenav.close();
   }
-
-  shouldRun = /(^|.)(stackblitz|webcontainer).(io|com)$/.test(window.location.host);
 }

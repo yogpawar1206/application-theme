@@ -1,4 +1,4 @@
-<mat-sidenav-container class="example-container" *ngIf="shouldRun">
+<mat-sidenav-container class="example-container" >
   <mat-sidenav #sidenav mode="side" [(opened)]="opened" (opened)="events.push('open!')"
                (closed)="events.push('close!')">
     Sidenav content
@@ -14,4 +14,3 @@
   </mat-sidenav-content>
 </mat-sidenav-container>
 
-<div *ngIf="!shouldRun">Please open on Stackblitz to see result</div>

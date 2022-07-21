@@ -7,5 +7,4 @@ import {Component} from '@angular/core';
   styleUrls: ['sidenav-position-example.css'],
 })
 export class SidenavPositionExample {
-  shouldRun = /(^|.)(stackblitz|webcontainer).(io|com)$/.test(window.location.host);
 }

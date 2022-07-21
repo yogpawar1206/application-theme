@@ -10,5 +10,4 @@ import {MatDrawerMode} from '@angular/material/sidenav';
 })
 export class SidenavModeExample {
   mode = new FormControl('over' as MatDrawerMode);
-  shouldRun = /(^|.)(stackblitz|webcontainer).(io|com)$/.test(window.location.host);
 }

@@ -10,5 +10,4 @@ export class SidenavOpenCloseExample {
   events: string[] = [];
   opened!: boolean;
 
-  shouldRun = /(^|.)(stackblitz|webcontainer).(io|com)$/.test(window.location.host);
 }
