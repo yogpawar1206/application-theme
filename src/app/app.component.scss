@@ -1,3 +1,8 @@
+.main{
+  width: 100%;
+  overflow:scroll;
+}
+
 .example-form {
     min-width: 150px;
     max-width: 500px;
@@ -11,12 +16,20 @@
 
   .side{
     min-height: 700px;
+    width: 100%;
   }
 
   .resp{
     position :relative;
     margin: 5px;
     min-height: 250px;
-    min-width: 200px;
-    // background-color: red;
+    width: 100%;
+  }
+
+  @media screen and (max-width: 480px) {
+    .resp{
+      position :relative;
+      margin: 5px;
+      min-height: 250px;
+    }
   }
